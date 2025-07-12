@@ -53,7 +53,7 @@ for plan in default_plans.keys():
     plans_input[plan] = rate_val
 
 # User input
-amount_saved = st.number_input("💰 Enter the amount you want to remunerate (€):", min_value=0, step=1000, value=10000)
+amount_saved = st.slider("💰 Enter the amount you want to remunerate (€):", min_value=0, max_value= 100000,step=1000, value=10000)
 
 # Monthly interest and net benefits
 monthly_interests = {plan: (amount_saved * (rate / 100)) / 12 for plan, rate in plans_input.items()}
