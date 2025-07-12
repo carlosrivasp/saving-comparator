@@ -1,3 +1,3 @@
 # saving-comparator
 
-Repositorio para el proyecto Saving Comparator.
+Repository for the Saving Comparator project.
