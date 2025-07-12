@@ -2,6 +2,10 @@
 
 This folder contains **Streamlit-based interactive web apps** for comparing remunerated bank accounts available in Spain.
 
+## 📲 Live demo
+
+👉 [Launch Revolut Comparator App](https://revolut-comparator-crp.streamlit.app/)
+
 Each subfolder holds the app files for a specific bank or financial product.
 
 ## 📂 Structure
